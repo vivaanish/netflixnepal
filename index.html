@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Netflix Nepal</title>
+<meta name="description" content="NetflixNepal.com is a premium Nepal streaming domain for sale. Available now with Netflix-style branding and a direct offer.">
+<meta property="og:title" content="Netflix Nepal — Premium Domain for Sale" />
+<meta property="og:description" content="Secure NetflixNepal.com as your Nepal streaming brand. Asking price USD $5,000." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://netflixnepal.com/" />
+<meta property="og:image" content="https://netflixnepal.com/og-image.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Netflix Nepal domain sale preview" />
+<link rel="canonical" href="https://netflixnepal.com/" />
+<link rel="image_src" href="https://netflixnepal.com/og-image.png" />
+<meta property="og:site_name" content="Netflix Nepal" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Netflix Nepal — Premium Domain for Sale" />
+<meta name="twitter:description" content="NetflixNepal.com is available for purchase. Premium Nepal streaming brand with Netflix-inspired style." />
+<meta name="twitter:image" content="https://netflixnepal.com/og-image.png" />
+<meta name="twitter:image:alt" content="Netflix Nepal domain sale preview" />
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300;1,600&family=DM+Serif+Display&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<style>
+:root {
+  --red: #e50914;
+  --dark: #050505;
+  --muted: #999;
+  --white: #fff;
+  --gold: #f5c518;
+  --glass: rgba(255,255,255,.08);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #070707 0%, #030303 50%, #000 100%);
+  color: var(--white);
+  font-family: 'Cormorant Garamond', serif;
+  overflow-x: hidden;
+  position: relative;
+}
+a { color: inherit; text-decoration: none; }
+button, .button { border: none; cursor: pointer; }
+button:focus, .button:focus, a:focus { outline: none; }
+img { display: block; width: 100%; height: auto; }
+.container { width: min(1180px, calc(100% - 48px)); margin: 0 auto; }
+nav {
+  position: fixed;
+  inset: 0 auto auto 0;
+  width: 100%;
+  z-index: 50;
+  padding: 24px 0;
+  background: linear-gradient(180deg, rgba(0,0,0,.95) 0%, transparent 80%);
+}
+nav .container { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.brand { font-family: 'Bebas Neue', sans-serif; font-size: 1.85rem; letter-spacing: 3px; color: var(--red); animation: brandGlow 4s ease-in-out infinite alternate; }
+.brand span { color: var(--white); }
+.nav-links { display: flex; align-items: center; gap: 16px; }
+.cta-button { display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 14px 28px; border-radius: 999px; font-family: 'Space Mono', monospace; letter-spacing: 2px; text-transform: uppercase; transition: transform .3s ease, box-shadow .3s ease, background .3s ease, color .3s ease; background: var(--red); color: var(--white); box-shadow: 0 4px 15px rgba(229,9,20,.3); animation: pulseButton 10s ease-in-out infinite alternate; }
+.cta-button:hover { transform: translateY(-3px); box-shadow: 0 25px 50px rgba(229,9,20,.5); }
+.cta-button:focus-visible { outline: 2px solid rgba(229,9,20,.4); outline-offset: 4px; }
+.marquee-section { padding: clamp(35px, 6vw, 70px) 0; background: #000; position: relative; overflow: hidden; }
+.marquee-header { text-align: center; margin-bottom: clamp(26px, 5vw, 40px); position: relative; z-index: 2; }
+.marquee-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(3rem, 6vw, 5rem); line-height: 1; margin-bottom: 20px; color: var(--white); }
+.marquee-subtitle { font-family: 'Space Mono', monospace; font-size: 1rem; letter-spacing: 3px; text-transform: uppercase; color: rgba(255,255,255,.7); font-weight: 700; }
+.marquee-row { margin-bottom: clamp(24px, 6vw, 42px); overflow: hidden; position: relative; }
+.marquee-header > .row-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(3.5rem, 8vw, 6rem); line-height: 0.95; margin-bottom: 18px; color: var(--white); }
+.marquee-row .row-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(2rem, 5vw, 2.3rem); margin-bottom: 18px; padding-left: 24px; color: var(--white); }
+.row-title { color: var(--white); }
+.marquee-track { display: flex; gap: 20px; width: max-content; animation: scrollLeft 45s linear infinite; will-change: transform; }
+.marquee-track.reverse { animation-direction: reverse; animation-duration: 55s; }
+.marquee-track.fast { animation-duration: 34s; }
+.marquee-track.slow { animation-duration: 58s; }
+.marquee-track:hover { animation-play-state: paused; }
+.poster { flex-shrink: 0; width: 240px; height: 360px; border-radius: 12px; overflow: hidden; position: relative; transition: transform .4s ease, box-shadow .4s ease; cursor: pointer; border: 1px solid rgba(255,255,255,.1); animation: posterFloat 14s ease-in-out infinite alternate; opacity: 1; }
+.poster:hover { transform: scale(1.08) translateY(-8px) rotateX(4deg); box-shadow: 0 32px 60px rgba(0,0,0,.6), 0 0 35px rgba(229,9,20,.25); }
+.poster::after { content: '▶'; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(0); font-size: 3rem; color: rgba(255,255,255,.85); opacity: 0; transition: transform .3s ease, opacity .3s ease; pointer-events: none; }
+.poster:hover::after { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+.poster img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease, filter .4s ease; }
+.poster:hover img { transform: scale(1.16); filter: brightness(1.08) contrast(1.05); }
+.poster-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,.45) 0%, rgba(0,0,0,.18) 45%, transparent 100%); transition: background .4s ease; }
+.poster:hover .poster-overlay { background: linear-gradient(to top, rgba(229,9,20,.18) 0%, rgba(0,0,0,.25) 50%, transparent 100%); }
+.poster-title { position: absolute; bottom: 20px; left: 20px; right: 20px; font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; color: #fff; line-height: 1.2; text-shadow: 0 1px 3px rgba(0,0,0,.8); transition: transform .4s ease, opacity .4s ease; opacity: 1; z-index: 2; }
+.poster:hover .poster-title { transform: translateY(-8px); opacity: 1; }
+.poster-year { position: absolute; top: 16px; right: 16px; font-family: 'Space Mono', monospace; font-size: .9rem; color: rgba(255,255,255,.9); background: rgba(0,0,0,.7); padding: 4px 8px; border-radius: 4px; backdrop-filter: blur(4px); transition: transform .3s ease, background .3s ease, opacity .4s ease; opacity: 1; z-index: 2; }
+.poster:hover .poster-year { transform: translateY(-2px); background: rgba(229,9,20,.9); color: #fff; opacity: 0.7; }
+/* Poster detail overlays removed for simplified preview cards */
+@keyframes scrollLeft { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@keyframes brandGlow { from { text-shadow: 0 0 16px rgba(229,9,20,.2); } to { text-shadow: 0 0 30px rgba(229,9,20,.6); } }
+@keyframes pulseButton { from { transform: translateY(0); box-shadow: 0 4px 15px rgba(229,9,20,.3); } to { transform: translateY(-2px); box-shadow: 0 18px 42px rgba(229,9,20,.42); } }
+@keyframes glowPulse { from { opacity: .85; filter: brightness(1); } to { opacity: .7; filter: brightness(1.12); } }
+@keyframes heroZoom { from { transform: scale(1.08); } to { transform: scale(1.14) translateY(-14px); } }
+@keyframes posterFloat { from { transform: translateY(0); } to { transform: translateY(-8px); } }
+@keyframes posterFadeIn { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fadeInUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes letterRise { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes letterWave { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+@keyframes bgGlow { from { background: radial-gradient(circle at 20% 20%, rgba(255,255,255,.08), transparent 18%), radial-gradient(circle at 80% 20%, rgba(229,9,20,.12), transparent 14%), linear-gradient(180deg, rgba(0,0,0,.45), rgba(0,0,0,.85)); } to { background: radial-gradient(circle at 18% 18%, rgba(255,255,255,.06), transparent 16%), radial-gradient(circle at 82% 22%, rgba(229,9,20,.16), transparent 12%), linear-gradient(180deg, rgba(0,0,0,.52), rgba(0,0,0,.95)); } }
+.hero {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top left, rgba(255,255,255,.08), transparent 22%),
+              radial-gradient(circle at 70% 20%, rgba(229,9,20,.14), transparent 18%),
+              linear-gradient(180deg, rgba(0,0,0,.35) 0%, rgba(0,0,0,.9) 100%);
+  z-index: 1;
+}
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+.hero-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    url('https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=crop&w=500&q=60'),
+    url('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=500&q=60'),
+    url('https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=500&q=60'),
+    url('https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=crop&w=500&q=60'),
+    linear-gradient(180deg, rgba(0,0,0,.35), rgba(0,0,0,.95));
+  background-size: 22% 16%, 18% 14%, 24% 18%, 20% 16%, cover;
+  background-position: 10% 14%, 70% 18%, 42% 55%, 18% 64%, center;
+  background-repeat: no-repeat;
+  opacity: .18;
+  filter: saturate(1.1) blur(1.2px);
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+.hero-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 20% 20%, rgba(255,255,255,.08), transparent 18%),
+              radial-gradient(circle at 80% 20%, rgba(229,9,20,.12), transparent 14%),
+              linear-gradient(180deg, rgba(0,0,0,.45), rgba(0,0,0,.85));
+  animation: bgGlow 18s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+.hero-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(.55) contrast(1.15) saturate(1.08);
+  transform: scale(1.05);
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 860px;
+  padding: 0 24px;
+}
+.hero-eyebrow {
+  font-family: 'Space Mono', monospace;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: var(--white);
+  font-size: .85rem;
+  margin-bottom: 18px;
+  opacity: .88;
+  animation: fadeInUp .9s ease both;
+  animation-delay: .2s;
+}
+.hero-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(3.6rem, 8vw, 7.5rem);
+  line-height: .88;
+  letter-spacing: -2px;
+  margin-bottom: 22px;
+  color: #fff;
+  text-shadow: 0 4px 18px rgba(0,0,0,.7);
+}
+.hero-letter {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: letterRise .8s ease both;
+  animation-delay: var(--delay);
+}
+.hero-letter:nth-child(even) {
+  animation-name: letterRise, letterWave;
+  animation-duration: .8s, 4s;
+  animation-delay: var(--delay), calc(var(--delay) + 1.1s);
+  animation-iteration-count: 1, infinite;
+  animation-timing-function: ease, ease-in-out;
+}
+.hero-letter:nth-child(odd) {
+  animation-name: letterRise, letterWave;
+  animation-duration: .8s, 4s;
+  animation-delay: var(--delay), calc(var(--delay) + 1.1s);
+  animation-iteration-count: 1, infinite;
+  animation-timing-function: ease, ease-in-out;
+}
+.hero-copy {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(1rem, 2vw, 1.4rem);
+  color: rgba(255,255,255,.88);
+  line-height: 1.8;
+  margin-bottom: 32px;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0;
+  animation: fadeInUp 1s ease both;
+  animation-delay: .55s;
+}
+.hero-cta {
+  display: grid;
+  gap: 18px;
+  margin: 0 auto;
+  max-width: 720px;
+  opacity: 0;
+  animation: fadeInUp 1s ease both;
+  animation-delay: .75s;
+}
+.hero-cta-copy {
+  font-family: 'Space Mono', monospace;
+  font-size: .92rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.72);
+  margin-bottom: 0;
+}
+.hero-form {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: center;
+}
+.hero-form input {
+  width: 100%;
+  min-height: 58px;
+  padding: 0 18px;
+  border-radius: 6px;
+  border: none;
+  background: rgba(255,255,255,.1);
+  color: #fff;
+  font-size: 1rem;
+  font-family: inherit;
+}
+.hero-form input::placeholder {
+  color: rgba(255,255,255,.65);
+}
+.hero-form input:focus {
+  outline: 2px solid rgba(255,255,255,.35);
+  outline-offset: 2px;
+}
+.hero-actions {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  border-radius: 6px;
+  font-family: 'Space Mono', monospace;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: rgba(255,255,255,.2);
+  color: #fff;
+  border: 2px solid rgba(255,255,255,.3);
+  transition: background .3s ease, border-color .3s ease;
+}
+.secondary-button:hover {
+  background: rgba(255,255,255,.3);
+  border-color: rgba(255,255,255,.5);
+}
+.section { padding: clamp(50px, 10vw, 100px) 0; position: relative; }
+.section.headline { padding-top: 90px; }
+.section h2 { font-family: 'Bebas Neue', sans-serif; font-size: clamp(2.8rem, 6vw, 5.5rem); line-height: .95; margin-bottom: 18px; }
+.section p.lead { max-width: 720px; color: rgba(255,255,255,.65); line-height: 1.9; margin-bottom: 24px; }
+.split-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 36px; align-items: center; }
+.price-panel { background: rgba(255,255,255,.03); border: 1px solid rgba(255,255,255,.08); border-radius: 28px; padding: 48px; backdrop-filter: blur(10px); }
+.price-eyebrow { font-family: 'Space Mono', monospace; letter-spacing: 7px; text-transform: uppercase; color: var(--red); margin-bottom: 18px; font-size: .75rem; }
+.price-number { font-family: 'Bebas Neue', sans-serif; font-size: clamp(5rem, 12vw, 10rem); color: var(--gold); line-height: .88; margin-bottom: 16px; }
+.price-copy { font-family: 'DM Serif Display', serif; font-size: 1.25rem; color: rgba(255,255,255,.78); line-height: 1.8; margin-bottom: 28px; }
+.price-cta { display: inline-flex; align-items: center; justify-content: center; padding: 18px 46px; border-radius: 999px; background: var(--red); color: #fff; font-family: 'Space Mono', monospace; text-transform: uppercase; letter-spacing: 2px; transition: transform .28s ease; }
+.price-cta:hover { transform: translateY(-2px); }
+.price-hint { margin-top: 18px; color: rgba(255,255,255,.35); letter-spacing: 1px; font-size: .82rem; text-transform: uppercase; }
+.contact-card { background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.08); border-radius: 24px; padding: 48px; backdrop-filter: blur(12px); }
+.contact-card h3 { font-family: 'Bebas Neue', sans-serif; font-size: clamp(2.5rem, 6vw, 4.5rem); line-height: .92; margin-bottom: 18px; }
+.contact-card p { color: rgba(255,255,255,.73); line-height: 1.9; margin-bottom: 28px; }
+.contact-card a.email { display: inline-block; font-family: 'Bebas Neue', sans-serif; font-size: 1.85rem; color: var(--red); margin-bottom: 28px; }
+.contact-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; margin-top: 24px; }
+.contact-item { padding: 22px 18px; background: rgba(255,255,255,.02); border-radius: 18px; border: 1px solid rgba(255,255,255,.06); }
+.contact-item .label { font-family: 'Space Mono', monospace; letter-spacing: 2px; font-size: .68rem; color: rgba(255,255,255,.48); text-transform: uppercase; margin-bottom: 10px; }
+.contact-item .value { font-family: 'Bebas Neue', sans-serif; font-size: 1.3rem; }
+footer { padding: 32px 0 48px; color: rgba(255,255,255,.45); font-size: .85rem; text-align: center; }
+footer .footer-line { margin-top: 10px; color: rgba(255,255,255,.24); }
+@media (max-width: 1100px) {
+  .split-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 760px) {
+  nav .container { flex-direction: column; align-items: flex-start; }
+  .hero { padding-top: 90px; padding-bottom: 45px; }
+  .hero-title { font-size: clamp(2.2rem, 12vw, 4rem); }
+  .hero-copy { font-size: 0.95rem; }
+  .hero-actions { width: 100%; }
+  .hero-actions .cta-button { width: 100%; justify-content: center; }
+  .hero-form { grid-template-columns: 1fr; }
+  .hero-form button { width: 100%; }
+  .section { padding: 50px 0; }
+  .marquee-section { padding: 50px 0; }
+  .row-title { font-size: 1.5rem; margin-bottom: 14px; padding-left: 0; }
+  .poster { width: 170px; height: 255px; animation: posterFloat 14s ease-in-out infinite alternate; box-shadow: 0 20px 45px rgba(0,0,0,.25); }
+  .poster-title, .poster-year { display: block; }
+  .poster-title { font-size: 1rem; bottom: 14px; left: 14px; right: 14px; }
+  .poster-year { top: 12px; right: 12px; font-size: 0.78rem; padding: 4px 8px; }
+  .poster-overlay { background: linear-gradient(to top, rgba(0,0,0,.35) 0%, rgba(0,0,0,.12) 48%, transparent 100%); }
+  .poster-details,
+  .poster-actions,
+  .genre,
+  .synopsis { display: none; }
+  .poster-meta { gap: 0; margin-bottom: 0; justify-content: flex-start; }
+  .duration { padding: 5px 10px; font-size: .85rem; background: rgba(255,255,255,.14); border-radius: 999px; }
+  .poster:hover,
+  .poster:hover img,
+  .poster:hover .poster-overlay {
+    transform: none !important;
+    opacity: 1 !important;
+  }
+  .marquee-row { margin-bottom: 30px; }
+  .marquee-track { gap: 12px; }
+  .contact-grid { grid-template-columns: 1fr; }
+  .split-grid { grid-template-columns: 1fr; gap: 24px; }
+  .price-number { font-size: clamp(3.5rem, 10vw, 7rem); }
+  .price-copy { font-size: 1.05rem; }
+  .contact-card h3 { font-size: clamp(1.8rem, 8vw, 3rem); }
+  .contact-card a.email { font-size: 1.4rem; }
+  .price-panel { padding: 32px; }
+  .contact-card { padding: 32px; }
+}
+
+@media (max-width: 500px) {
+  .container { width: min(100%, calc(100% - 24px)); }
+  nav .container { padding: 16px 0; }
+  .brand { font-size: 1.4rem; letter-spacing: 2px; }
+  .hero { padding-top: 90px; padding-bottom: 40px; }
+  .hero-title { font-size: clamp(1.8rem, 10vw, 3.2rem); line-height: 1; }
+  .hero-eyebrow { font-size: 0.65rem; letter-spacing: 4px; }
+  .hero-copy { font-size: 0.9rem; line-height: 1.7; margin-bottom: 16px; }
+  .hero-content { gap: 16px; }
+  .marquee-header { margin-bottom: 40px; }
+  .marquee-subtitle { font-size: 0.85rem; }
+  .row-title { font-size: 1.2rem; margin-bottom: 12px; }
+  .poster { width: 140px; height: 210px; border-radius: 8px; }
+  .poster-title { font-size: 0.9rem; bottom: 10px; left: 10px; right: 10px; }
+  .poster-year { font-size: 0.7rem; padding: 2px 5px; }
+  .marquee-row { margin-bottom: 32px; }
+  .marquee-track { gap: 10px; }
+  .section { padding: 50px 0; }
+  .section h2 { font-size: clamp(2rem, 7vw, 3.5rem); }
+  .price-eyebrow { font-size: 0.65rem; margin-bottom: 12px; }
+  .price-number { font-size: clamp(2.5rem, 9vw, 5rem); margin-bottom: 12px; }
+  .price-copy { font-size: 1rem; margin-bottom: 20px; }
+  .price-cta { padding: 14px 32px; font-size: 0.8rem; }
+  .price-hint { font-size: 0.75rem; margin-top: 12px; }
+  .contact-card { padding: 24px; }
+  .contact-card h3 { font-size: clamp(1.4rem, 6vw, 2.4rem); margin-bottom: 12px; }
+  .contact-card p { font-size: 0.95rem; margin-bottom: 16px; }
+  .contact-card a.email { font-size: 1.2rem; margin-bottom: 16px; }
+  .contact-item { padding: 16px 12px; }
+  .contact-item .label { font-size: 0.6rem; }
+  .contact-item .value { font-size: 1rem; }
+  .price-panel { padding: 24px; }
+  footer { padding: 24px 0 32px; font-size: 0.75rem; }
+  footer .footer-line { margin-top: 8px; }
+}
+.loading-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 1100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at top, rgba(255,255,255,.08), rgba(0,0,0,.96));
+  overflow: hidden;
+  transition: opacity 1.5s cubic-bezier(0.4, 0, 0.2, 1), visibility 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.loading-screen.hide {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.loading-screen #container {
+  width: min(420px, 88vw);
+  height: min(420px, 88vw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loading-screen netflixintro,
+netflixintro {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 24px;
+  background: radial-gradient(circle at 30% 20%, rgba(229,9,20,.18), transparent 30%), linear-gradient(180deg, rgba(255,255,255,.05), rgba(0,0,0,.9));
+  box-shadow: 0 0 80px rgba(229,9,20,.18);
+}
+netflixintro::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,.15), rgba(0,0,0,.96));
+}
+netflixintro .helper-1,
+netflixintro .helper-2,
+netflixintro .helper-3,
+netflixintro .helper-4 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  overflow: hidden;
+}
+netflixintro .helper-1 { left: 16%; width: 18%; background: rgba(229,9,20,.08); }
+netflixintro .helper-2 { left: 42%; width: 18%; background: rgba(255,255,255,.06); transform: rotate(4deg); }
+netflixintro .helper-3 { left: 58%; width: 18%; top: -10%; height: 120%; background: rgba(229,9,20,.1); transform: rotate(-18deg); }
+netflixintro .helper-4 { left: 74%; width: 18%; top: -10%; height: 120%; background: rgba(255,255,255,.05); transform: rotate(18deg); }
+netflixintro .effect-brush {
+  position: absolute;
+  inset: 0;
+  animation: brush-moving 6s ease-in-out infinite;
+}
+netflixintro .effect-brush::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70%;
+  background: radial-gradient(circle at 50% 0, rgba(229,9,20,.35), transparent 55%);
+  filter: blur(18px);
+}
+netflixintro .effect-lumieres {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  animation: showing-lumieres 2.5s ease-in-out forwards;
+}
+netflixintro .effect-lumieres span {
+  position: absolute;
+  bottom: 0;
+  width: 1px;
+  height: 120%;
+  background: rgba(255,255,255,.2);
+  filter: blur(1.2px);
+}
+netflixintro .effect-lumieres span:nth-child(1) { left: 3%; height: 110%; }
+netflixintro .effect-lumieres span:nth-child(2) { left: 8%; height: 125%; }
+netflixintro .effect-lumieres span:nth-child(3) { left: 15%; height: 115%; }
+netflixintro .effect-lumieres span:nth-child(4) { left: 22%; height: 105%; }
+netflixintro .effect-lumieres span:nth-child(5) { left: 30%; height: 130%; }
+netflixintro .effect-lumieres span:nth-child(6) { left: 37%; height: 110%; }
+netflixintro .effect-lumieres span:nth-child(7) { left: 44%; height: 122%; }
+netflixintro .effect-lumieres span:nth-child(8) { left: 51%; height: 113%; }
+netflixintro .effect-lumieres span:nth-child(9) { left: 58%; height: 128%; }
+netflixintro .effect-lumieres span:nth-child(10) { left: 65%; height: 108%; }
+netflixintro .effect-lumieres span:nth-child(11) { left: 72%; height: 118%; }
+netflixintro .effect-lumieres span:nth-child(12) { left: 79%; height: 124%; }
+netflixintro .effect-lumieres span:nth-child(13) { left: 86%; height: 116%; }
+netflixintro .effect-lumieres span:nth-child(14) { left: 92%; height: 111%; }
+@keyframes brush-moving { 0% { transform: translateY(0); } 100% { transform: translateY(-100%); } }
+@keyframes showing-lumieres { 0% { opacity: 0; } 100% { opacity: 1; } }
+@keyframes zoom-in { 0% { transform: scale(1); } 100% { transform: scale(1.06); } }
+body.fade-in { animation: fadeInBody 1s ease-out forwards; }
+@keyframes fadeInBody { from { opacity: 0; } to { opacity: 1; } }
+</style>
+</head>
+<body>
+<nav>
+  <div class="container">
+    <div class="brand">Netflix<span>.nepal</span></div>
+    <div class="nav-links"></div>
+  </div>
+</nav>
+<section class="hero">
+  <div class="hero-bg">
+    <img src="https://plus.unsplash.com/premium_photo-1692976235041-b690bbd8f770?q=80&w=2676&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Premium cinema experience" />
+  </div>
+  <div class="container hero-content">
+    <p class="hero-eyebrow">Available for purchase</p>
+    <h1 class="hero-title" id="heroTitle">NetflixNepal.com</h1>
+    <p class="hero-copy">Premium domain ready for your Nepal streaming brand.</p>
+    <div class="hero-cta">
+      <p class="hero-cta-copy">Offer price: USD $5,000.</p>
+      <form class="hero-form" onsubmit="return false;">
+        <input type="email" placeholder="Email address" aria-label="Email address" />
+        <button class="cta-button" type="submit">Make Offer</button>
+      </form>
+    </div>
+  </div>
+</section>
+<section class="marquee-section">
+  <div class="container">
+    <div class="marquee-header">
+      
+      <div class="row-title">Trending In <span class="highlight">Nepal</span></div>
+      <div class="marquee-track" id="trending"></div>
+    </div>
+    <div class="marquee-row">
+      <div class="row-title">Nepal's Originals</div>
+      <div class="marquee-track reverse slow" id="originals"></div>
+    </div>
+    <div class="marquee-row">
+      <div class="row-title">Action & Adventure</div>
+      <div class="marquee-track fast" id="action"></div>
+    </div>
+    <div class="marquee-row">
+      <div class="row-title">Drama</div>
+      <div class="marquee-track reverse fast" id="drama"></div>
+    </div>
+  </div>
+</section>
+<section id="contact" class="section">
+  <div class="container">
+    <div class="contact-card">
+      <span class="hero-eyebrow"> Inquiry</span>
+      <h3>Secure your asset NetFlix.</h3>
+      <div class="contact-grid"></div>
+        <div class="contact-item">
+          <div class="label">Domain</div>
+          <div class="value">NetflixNepal.com</div>
+        </div>
+        <div class="contact-item">
+          <div class="label">Asking Price</div>
+          <div class="value">USD $5,000</div>
+        </div>
+        <div class="contact-item">
+          <div class="label">Let's talk </div>
+          <div class="value">X anishisgreatt</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    Netflix<span>Nepal</span> Not affiliated with Netflix, Inc. 
+    <div class="footer-line">© 2026</div>
+  </div>
+</footer>
+<script>
+// Page is direct offer only; no gallery script needed.
+// Movie marquee data
+const movieData = {
+  trending: [
+    { img: 'https://plus.unsplash.com/premium_photo-1688645554172-d3aef5f837ce?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXZlcmVzdHxlbnwwfHwwfHx8MA%3D%3D', title: 'Sagarmatha', year: '2026', duration: '2h 15m', genre: 'Adventure', synopsis: 'Epic tale of conquering the world\'s highest peak.' },
+    { img: 'https://images.unsplash.com/photo-1593250906508-652dd0e0ffd0?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXJiYW4lMjBuZXBhbHxlbnwwfHwwfHx8MA%3D%3D', title: 'Kailash', year: '2025', duration: '1h 45m', genre: 'Drama', synopsis: 'Mystical journey to the sacred mountain.' },
+    { img: 'https://images.unsplash.com/photo-1620830813933-1b102788f5c8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZlc3RpdmFsJTIwbmVwYWx8ZW58MHx8MHx8fDA%3D', title: 'Tilicho', year: '2022', duration: '2h 30m', genre: 'Documentary', synopsis: 'Exploring the pristine lake and its legends.' },
+    { img: 'https://images.unsplash.com/photo-1641584495061-89b9025f563b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cml2ZXIlMjBuZXBhbHxlbnwwfHwwfHx8MA%3D%3D', title: 'Barun', year: '2017', duration: '1h 55m', genre: 'Action', synopsis: 'Thrilling rafting adventure down the river.' },
+    { img: 'https://images.unsplash.com/photo-1690908719619-e0774b31b935?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aGVyaXRhZ2UlMjBuZXBhbHxlbnwwfHwwfHx8MA%3D%3D', title: 'Manang', year: '2026', duration: '2h 10m', genre: 'Biography', synopsis: 'Life of a legendary Sherpa guide.' },
+    { img: 'https://plus.unsplash.com/premium_photo-1691735666207-be6e91326e3a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGlsbHMlMjBuZXBhbHxlbnwwfHwwfHx8MA%3D%3D', title: 'Dhaulagiri', year: '2025', duration: '2h 20m', genre: 'Adventure', synopsis: 'Climbing the white mountain.' },
+    { img: 'https://images.unsplash.com/photo-1730354308747-8970b5df5c66?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBlYWslMjBuZXBhbHxlbnwwfHwwfHx8MA%3D%3D', title: 'Lantang', year: '2022', duration: '1h 50m', genre: 'Drama', synopsis: 'Hidden valley of peace and culture.' },
+    { img: 'https://plus.unsplash.com/premium_photo-1692299547886-5b72fea75f56?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TWFjaGhhcHVjaGFyZSUyMG5lcGFsfGVufDB8fDB8fHww', title: 'Machhapuchare', year: '2017', duration: '2h 5m', genre: 'Fantasy', synopsis: 'Mythical tales from the fish-tailed peak.' }
+  ],
+  originals: [
+    { img: 'https://images.unsplash.com/photo-1658576274585-bfa874de812a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fG5lcGFsJTIwdG91cmlzbXxlbnwwfDF8MHx8fDA%3D', title: 'Sherpa', year: '2024', duration: '2h 25m', genre: 'Biography', synopsis: 'The unsung heroes of the Himalayas.' },
+    { img: 'https://images.unsplash.com/photo-1705911565985-cef7c9e08274?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fG5lcGFsJTIwdG91cmlzbXxlbnwwfDF8MHx8fDA%3D', title: 'Makalu', year: '2023', duration: '2h 35m', genre: 'Adventure', synopsis: 'Conquest of the difficult peak.' },
+    { img: 'https://plus.unsplash.com/premium_photo-1700558685265-14f007a2ed37?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YW5uYXB1cm5hfGVufDB8MXwwfHx8MA%3D%3D', title: 'Annapurna', year: '2024', duration: '2h 40m', genre: 'Documentary', synopsis: 'The goddess of harvests.' },
+    { img: 'https://images.unsplash.com/photo-1500269062855-0d9c4410af0e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG5lcGFsfGVufDB8MXwwfHx8MA%3D%3D', title: 'Kangmi', year: '2023', duration: '1h 40m', genre: 'Drama', synopsis: 'Cultural heritage of Nepal.' },
+    { img: 'https://images.unsplash.com/photo-1658576274419-4924db4962e0?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fG5lcGFsJTIwdG91cmlzbXxlbnwwfDF8MHx8fDA%3D', title: 'Chopicalqui', year: '2024', duration: '2h 15m', genre: 'Action', synopsis: 'High-altitude challenges.' },
+    { img: 'https://plus.unsplash.com/premium_photo-1700558685265-14f007a2ed37?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fG5lcGFsJTIwdG91cmlzbXxlbnwwfDF8MHx8fDA%3D', title: 'Nuptse', year: '2023', duration: '2h 10m', genre: 'Adventure', synopsis: 'West ridge adventures.' },
+    { img: 'https://images.unsplash.com/photo-1706000732728-538e38d0c8b1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fG5lcGFsJTIwdG91cmlzbXxlbnwwfDF8MHx8fDA%3D', title: 'Janwalkh', year: '2024', duration: '1h 55m', genre: 'Drama', synopsis: 'Stories from the valleys.' },
+    { img: 'https://images.unsplash.com/photo-1751974362646-c92a767ce4e4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fG5lcGFsJTIwdG91cmlzbXxlbnwwfDF8MHx8fDA%3D', title: 'Chitwan', year: '2023', duration: '2h 5m', genre: 'Nature', synopsis: 'Jungle safaris and wildlife.' }
+  ],
+  action: [
+    { img: 'https://images.unsplash.com/photo-1759969803264-c1bfe01f16d9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fG5lcGFsJTIwdG91cmlzbXxlbnwwfDF8MHx8fDA%3D', title: 'Traverse', year: '2024', duration: '2h 20m', genre: 'Action', synopsis: 'Cross-country expeditions.' },
+    { img: 'https://images.unsplash.com/photo-1686114298793-fdc8ff690cb8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fG5lcGFsJTIwdG91cmlzbXxlbnwwfDF8MHx8fDA%3D', title: 'Avalanche', year: '2023', duration: '1h 50m', genre: 'Thriller', synopsis: 'Surviving mountain dangers.' },
+    { img: 'https://images.unsplash.com/photo-1667714045096-f77b914af4da?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzJ8fG5lcGFsJTIwdG91cmlzbXxlbnwwfDF8MHx8fDA%3D', title: 'Descent', year: '2024', duration: '2h 5m', genre: 'Adventure', synopsis: 'Downhill adventures.' },
+    { img: 'https://images.unsplash.com/photo-1762209969193-0b43f18c5f48?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmVwYWwlMjB0b3VyaXNtJTIwZm9yZXN0fGVufDB8MXwwfHx8MA%3D%3D', title: 'Expedition', year: '2023', duration: '2h 30m', genre: 'Documentary', synopsis: 'Exploring remote forests.' },
+    { img: 'https://images.unsplash.com/photo-1686634664616-be12017d2b4c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fG1hcCUyMG5lcGFsfGVufDB8MXwwfHx8MA%3D%3D', title: 'Conquest', year: '2024', duration: '2h 15m', genre: 'Action', synopsis: 'Victories over nature.' },
+    { img: 'https://images.unsplash.com/photo-1701010657407-74f817ca99a7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SGltYWxheWFuJTIwTW9uYWx8ZW58MHwxfDB8fHww', title: 'Himalayan Monal', year: '2023', duration: '1h 45m', genre: 'Nature', synopsis: 'Birds of the high peaks.' },
+    { img: 'https://images.unsplash.com/photo-1527153857715-3908f2bae5e8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y293fGVufDB8MXwwfHx8MA%3D%3D', title: 'Cow', year: '2024', duration: '1h 30m', genre: 'Comedy', synopsis: 'Humorous farm life.' },
+    { img: 'https://images.unsplash.com/photo-1706952993203-2db7aca91907?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFwJTIwbmVwYWx8ZW58MHwxfDB8fHww', title: 'Mustang', year: '2023', duration: '2h 25m', genre: 'Adventure', synopsis: 'Kingdom of the wild horse.' }
+  ],
+  drama: [
+    { img: 'https://images.unsplash.com/photo-1730354308747-8970b5df5c66?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVhayUyMG5lcGFsfGVufDB8MXwwfHx8MA%3D%3D', title: 'Sanctuary', year: '2024', duration: '2h 10m', genre: 'Drama', synopsis: 'Finding peace in nature.' },
+    { img: 'https://images.unsplash.com/photo-1739181715375-eb2e1292f253?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1hcCUyMG5lcGFsfGVufDB8MXwwfHx8MA%3D%3D', title: 'Solitude', year: '2023', duration: '1h 55m', genre: 'Drama', synopsis: 'Alone in the mountains.' },
+    { img: 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG1hcCUyMG5lcGFsfGVufDB8MXwwfHx8MA%3D%3D', title: 'Eternity', year: '2024', duration: '2h 20m', genre: 'Romance', synopsis: 'Timeless love stories.' },
+    { img: 'https://images.unsplash.com/photo-1718179634981-58c7b7d738ab?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1hcCUyMG5lcGFsfGVufDB8MXwwfHx8MA%3D%3D', title: 'Journey', year: '2023', duration: '2h 5m', genre: 'Drama', synopsis: 'Life\'s long travels.' },
+    { img: 'https://images.unsplash.com/photo-1762338896267-341965d5a9e8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fG1hcCUyMG5lcGFsfGVufDB8MXwwfHx8MA%3D%3D', title: 'Legacy', year: '2024', duration: '2h 15m', genre: 'Biography', synopsis: 'Passing down traditions.' },
+    { img: 'https://images.unsplash.com/photo-1509347528160-9a9e33742cdb?w=400&q=80', title: 'Silence', year: '2023', duration: '1h 50m', genre: 'Drama', synopsis: 'The power of quiet.' },
+    { img: 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=400&q=80', title: 'Bondage', year: '2024', duration: '2h 10m', genre: 'Thriller', synopsis: 'Breaking free from chains.' },
+    { img: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&q=80', title: 'Reflections', year: '2023', duration: '1h 45m', genre: 'Drama', synopsis: 'Looking back on life.' }
+  ]
+};
+
+function populateMarquee(category, elementId) {
+  const track = document.getElementById(elementId);
+  if (!track) return;
+  const items = movieData[category];
+  const doubled = [...items, ...items]; // Duplicate for seamless loop
+  track.innerHTML = doubled.map(movie => `
+    <div class="poster">
+      <img src="${movie.img}" alt="${movie.title}" loading="lazy">
+      <div class="poster-overlay"></div>
+      <div class="poster-title">${movie.title}</div>
+      <div class="poster-year">${movie.year}</div>
+    </div>
+  `).join('');
+}
+
+const heroTitleEl = document.getElementById('heroTitle');
+if (heroTitleEl) {
+  const text = heroTitleEl.textContent.trim();
+  heroTitleEl.innerHTML = text.split('').map((char, idx) => {
+    const letter = char === ' ' ? '&nbsp;' : char;
+    return `<span class="hero-letter" style="--delay:${(idx * 0.08).toFixed(2)}s">${letter}</span>`;
+  }).join('');
+}
+
+populateMarquee('trending', 'trending');
+populateMarquee('originals', 'originals');
+populateMarquee('action', 'action');
+populateMarquee('drama', 'drama');
+
+// Loading screen hide and body fade-in
+window.onload = function() {
+  setTimeout(() => {
+    document.querySelector('.loading-screen').classList.add('hide');
+    document.body.classList.add('fade-in');
+  }, 5500); // Adjust timing to match animation
+};
+</script>
+</body>
+</html>
