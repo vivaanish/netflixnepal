@@ -1,38 +1,67 @@
-# NetflixNepal.com — Premium Domain Landing Page
+# NetflixNepal.com
 
-A Netflix-style landing page built to showcase and sell the domain NetflixNepal.com as a premium streaming brand asset.
+Premium domain landing page for sale.
 
-## Overview
-This is a high-conversion, single-page website designed with a cinematic UI inspired by modern streaming platforms. It presents the domain as a ready-to-launch brand for Nepal’s digital entertainment market.
+## About
+Simple Netflix-style page to showcase the domain NetflixNepal.com.  
+Designed for direct offer and quick buyer conversion.
 
-## Key Features
-- Clean hero section with animated title and offer pricing  
-- Netflix-style scrolling content rows (Trending, Originals, Action, Drama)  
-- Fully responsive design (desktop, tablet, mobile)  
-- Smooth animations and hover effects  
-- Simple inquiry section for direct buyer contact  
-- SEO-ready meta tags and social sharing previews  
+## Features
+- Hero section with price (USD $5,000)  
+- Scrolling movie-style rows  
+- Clean responsive layout  
+- Basic contact/inquiry section  
 
 ## Tech Stack
 - HTML5  
-- CSS3 (custom animations, responsive layout)  
+- CSS3 (custom styling + animations)  
 - Vanilla JavaScript  
 
-## Purpose
-This page is built to:
-- Showcase the value of the domain  
-- Create a premium brand perception  
-- Convert visitors into potential buyers  
+## Structure
+- index.html → main page  
+- style.css → all styles (animations, layout, responsive)  
+- script.js → marquee logic, animations, interactions  
+
+## Using Single Custom File (CSS + JS)
+
+If you want everything in one file:
+
+1. Keep all code inside index.html  
+2. Place CSS inside <style> in <head>  
+3. Place JavaScript inside <script> before </body>  
+
+This is already how your page works:
+- No external dependencies  
+- Faster setup (just open file)  
+- Easy to share or deploy  
+
+## Optional Separation Process
+
+If you want cleaner structure:
+
+1. Create style.css
+2. Move everything inside <style> → paste into style.css
+
+3. Link it in HTML:
+html <link rel="stylesheet" href="style.css"> 
+
+4. Create script.js
+5. Move everything inside <script> → paste into script.js
+
+6. Link it before closing body:
+html <script src="script.js"></script> 
+
+## Why Separate Files?
+- Better performance (browser caching)  
+- Cleaner code management  
+- Easier scaling if project grows  
 
 ## Usage
-1. Clone or download the repository  
-2. Open index.html in a browser  
-3. Customize content (price, contact info, branding if needed)  
-4. Deploy on any hosting (GitHub Pages, Netlify, etc.)  
+1. Open index.html  
+2. Edit price, domain, contact  
+3. Deploy (GitHub Pages / Netlify)
 
 ## Note
-This project is not affiliated with Netflix, Inc.  
-It is purely a domain sale landing page with inspired design aesthetics.
+Not affiliated with Netflix, Inc.
 
-## License
-Free to use for personal or commercial domain sales.
+© 2026 anishisgreat
